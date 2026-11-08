@@ -1,0 +1,27 @@
+{
+  "system": "Use only the Three.js core ES module from\nhttps://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.module.min.js.\nDo not import addons or legacy examples/js paths;\nimplement any camera controls directly inside the HTML.",
+  "prompts": [
+    {
+      "name": "lighthouse",
+      "prompt": "Please create one self-contained HTML file with Three.js from cdnjs showing an animated harbor at dusk.\n\nA striped lighthouse stands on a rocky headland with a slowly rotating light beam. A stone pier, two moored fishing boats rocking on animated water and a small keeper's cottage complete the scene. Add mouse orbit and wheel zoom."
+    },
+    {
+      "name": "retail-exterior",
+      "prompt": "Please create one self-contained HTML file with Three.js from cdnjs showing a small rural shopping center made of two connected two-storey buildings.\n\nThe buildings have ventilated facade panels, large glazed storefronts with awnings and tenant signs. A paved parking lot with marked bays, a delivery yard at the back, lawns, young trees, lamp posts and a low fence surround them. Add mouse orbit and wheel zoom."
+    },
+    {
+      "name": "retail-exterior-ru",
+      "prompt": "Создай один самодостаточный HTML-файл с Three.js с cdnjs: небольшой сельский торговый центр из двух соединённых двухэтажных зданий.\n\nУ зданий вентилируемый фасад, большие витрины с козырьками и вывесками арендаторов. Вокруг асфальтированная парковка с разметкой, двор для разгрузки сзади, газоны, молодые деревья, фонари и невысокий забор. Добавь вращение камеры мышью и зум колесом."
+    },
+    {
+      "name": "grocery-interior",
+      "prompt": "Please create one self-contained HTML file with Three.js from cdnjs showing the interior of a small grocery store.\n\nThe sales floor is about 12 by 18 meters with a 3.5 meter ceiling. An entrance with storefront windows, two checkouts near the entrance, aisles of shelving with colorful products, refrigerated display cases along the back wall, a vegetable stand, linear ceiling lights and a tiled floor. First-person camera at eye height: WASD to walk, mouse look while a button is held, no walking through walls or shelves. Add an \"Open / Closed\" button that turns off the main lights and leaves only the night lighting on.",
+      "check": { "walk": true, "room": [12, 18], "button": "open|close" }
+    },
+    {
+      "name": "grocery-interior-ru",
+      "prompt": "Создай один самодостаточный HTML-файл с Three.js с cdnjs: интерьер небольшого продуктового магазина.\n\nТорговый зал примерно 12 на 18 метров, высота потолка 3,5 метра. Входная группа с витринными окнами, две кассы у входа, ряды стеллажей с разноцветными товарами, холодильные витрины вдоль задней стены, прилавок с овощами, линейные светильники на потолке, плиточный пол. Камера от первого лица на высоте глаз: WASD для ходьбы, мышь для обзора при зажатой кнопке, без прохода сквозь стены и стеллажи. Добавь кнопку «Открыто / Закрыто», которая гасит основной свет и оставляет только дежурное освещение.",
+      "check": { "walk": true, "room": [12, 18], "button": "открыт|закрыт" }
+    }
+  ]
+}
